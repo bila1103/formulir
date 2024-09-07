@@ -2,7 +2,81 @@
 
 <head>
     <title>FORM JOIN</title>
-    
+    <style>
+        b {
+            font-size: 30px;
+            border: 2px;
+            color: rgb(2, 2, 24);
+        }
+
+        h1 {
+            color: rgb(222, 20, 20);
+            font-size: 50px;
+            border: 2px;
+            text-align: center;
+            font-family: "licida handwriting", cursive;
+        }
+
+        h2 {
+            color: rgb(178, 26, 127);
+            font-size: 30px;
+            border: 2px;
+            text-align: center;
+            font-family: "papyrus", fantasy;
+        }
+
+        h3 {
+            font-size: 30px;
+            border: 2px;
+            font-family: 'Courier New', Courier, monospace
+        }
+
+        .L1 {
+            background-color: rgb(180, 229, 245);
+        }
+
+        .L2 {
+            background-color: rgb(236, 209, 232);
+        }
+
+        .T1 {
+            background-color: rgb(234, 200, 206);
+
+        }
+
+        .T2 {
+            background-color: rgb(234, 237, 196);
+        }
+
+        .T3 {
+            background-color: rgb(178, 222, 202);
+        }
+
+        ul.a {
+            list-style-type: square;
+            background: #ff9999;
+            padding: 20px;
+        }
+
+        ul li {
+            background: #ffe5e5;
+            color: darkred;
+            padding: 5px;
+            margin-left: 35px;
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        a:hover {
+            color: hotpink;
+        }
+
+        a:active {
+            color: blue;
+        }
+    </style>
 </head>
 
 <body>
@@ -14,116 +88,57 @@
         <fieldset class="L1">
             <fieldset class="T1">
                 <legend><b>DATA DIRI</b></legend>
+                <label for="NAMA">NAMA :</label>
+                <input type="text " id="nama" name="nama"><br>
+                <label for="ttl">TANGGAL LAHIIR :</label></td>
+                <input type="date" id="ttl" name="ttl"><br>
+                <label for="js">JENIS KELAMIN :</label><br>
+                <input type="radio" id="jk" name="lk">laki-laki<br>
+                <input type="radio" id="pr" name="pr">wanita<br>
+                <label for="skl">TINGKAT PENDIDIKAN :</label><br>
+                <input type="radio" id="SD" name="SD">SD (SEKOLAH DASAR)<br>
+                <input type="radio" id="SMP" name="SMP">SMP (SEKOLAH MENENGAH PERTAMA)<br>
+                <input type="radio" id="SMA" name="SMA">SMA (SEKOLAH MENENGAH ATAS)</br>
+                <input type="radio" id="SMK" name="SMK">SMP (SEKOLAH MENENGAH KEJURUAN)</br>
+                <label for="agama">AGAMA :</label><br>
+                <select name="agama" id="agama">
+                    <option value="#">--pilih salah satu--</option>
+                    <option value="ISLAM">ISLAM</option>
+                    <option value="KRISTEN">KRISTEN</option>
+                    <option value="KATOLIK">KATOLIK</option>
+                    <option value="BUDHA">BUDHA</option>
+                    <option value="HINDU">HINDU</option>
+                    <option value="KONGHUCU">KONGHUCU</option>
+                </select> <br>
+                <label for="hobi">HOBI :</label><br>
+                <input type="checkbox">membaca<br>
+                <input type="checkbox">menulis<br>
+                <input type="checkbox">menonton<br>
+                <input type="checkbox">memasak<br>
+                <input type="checkbox">memancing<br>
+                <input type="checkbox">bernyayi<br>
+                <label for="hp">NO.HP :</label></td>
+                <td><input type="tel" id="hp" name="phone" placeholder="1122-3344-5566"><br>
+                    <label for="alamat">ALAMAT :</label><br>
+                    <textarea name="alamat" id="alamat">--isi alamat--</textarea>
+                    </textarea>
+                    <br>
+                    <label for="photo">PAS FOTO* :</label><br>
+                    <input type="file" id="photo" name="pp"><br>
 
-                <table class="T1">
-                    <tr>
-                        <td> <label for="NAMA">NAMA :</label> </td>
-                        <td> <input type="text " id="nama" name="nama"></td>
-                    </tr>
-                    <tr>
-                        <td><label for="ttl">TANGGAL LAHIIR :</label></td>
-                        <td><input type="date" id="ttl" name="ttl"></td>
-                    </tr>
-                    <tr>
-                        <td> JENIS KELAMIN : </td>
-                        <td> <input type="radio" id="jk" name="lk">laki-laki</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td> <input type="radio" id="pr" name="pr">wanita</td>
-                    </tr>
-                    <tr>
-                        <td> JENJANG PENDIDIKAN : </td>
-                        <td> <input type="radio" id="SD" name="SD">SD (SEKOLAH DASAR)</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td> <input type="radio" id="SMP" name="SMP">SMP (SEKOLAH MENENGAH PERTAMA)</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td> <input type="radio" id="SMA" name="SMA">SMA (SEKOLAH MENENGAH ATAS)</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td> <input type="radio" id="SMK" name="SMK">SMP (SEKOLAH MENENGAH KEJURUAN)</td>
-                    </tr>
-                    <tr>
-                        <td>AGAMA :</td>
-                        <td> <select name="agama" id="agama">
-                                <option value="#">--pilih salah satu--</option>
-                                <option value="ISLAM">ISLAM</option>
-                                <option value="KRISTEN">KRISTEN</option>
-                                <option value="KATOLIK">KATOLIK</option>
-                                <option value="BUDHA">BUDHA</option>
-                                <option value="HINDU">HINDU</option>
-                                <option value="KONGHUCU">KONGHUCU</option>
-                            </select>
-                    </tr>
+                    <h4>*foto bebas ukuran 4x6</h4>
 
-                    <tr>
-                        <td> HOBI :</td>
-                        <td> <input type="checkbox">membaca</td>
-                    <tr>
-                        <td></td>
-                        <td> <input type="checkbox">menulis</td>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td> <input type="checkbox">menonton</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td> <input type="checkbox">memasak</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td> <input type="checkbox">memancing</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td> <input type="checkbox">bernyayi</td>
-                    </tr>
-                    <td><label for="hp">NO.HP :</label></td>
-                    <td><input type="tel" id="hp" name="phone" placeholder="1122-3344-5566"></td>
-                    <tr>
-                        <td><label for="alamat">ALAMAT :</label></td>
-                        <td>
-
-                            <textarea name="alamat" id="alamat">--isi alamat--</textarea>
-                            </textarea>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><label for="photo">PAS FOTO* :</label></td>
-                        <td><input type="file" id="photo" name="pp"></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h4>*foto bebas ukuran 4x6</h4>
-                        </td>
-                    </tr>
-                </table>
             </fieldset>
             <fieldset class="T2">
-                <table class="T2">
+                
                     <legend><b>DATA SEKOLAH</b></legend>
-                    <tr>
-                        <td> <label for="sekolah">nama sekolah :</label> </td>
-                        <td> <input type="text " id="sekolah" name="ns"></td>
-                    </tr>
-                    <tr>
-                        <td> status sekolah : </td>
-                        <td> <input type="radio" id="n" name="n">negri</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td> <input type="radio" id="s" name="s">swasta</td>
-                    </tr>
-                    <tr>
-                        <td>provinsi :</td>
-                        <td> <select name="prov" id="prov">
+                    <label for="sekolah">nama sekolah :</label> 
+                    <input type="text " id="sekolah" name="ns"><br>
+                    <label for="jns">jenis sekolah :</label><br>
+                    <input type="radio" id="n" name="n">negri<br>
+                    <input type="radio" id="s" name="s">swasta<br>
+                    <label for="prov">provinsi :</label><br>
+                    <select name="prov" id="prov">
                                 <option value="#">--pilih salah satu--</option>
                                 <option value="ISLAM">ACEH</option>
                                 <option value="KRISTEN">SUMATRA UTARA</option>
@@ -162,40 +177,23 @@
                                 <option value="HINDU">PAPUA PRGUNUNGAN</option>
                                 <option value="HINDU">PAPUA SELATAN</option>
                                 <option value="HINDU">PAPUA BARAT DAYA</option>
-                            </select>
-                    </tr>
-                    <tr>
-                        <td> <label for="kk">kota/kabupaten :</label> </td>
-                        <td> <input type="text " id="kk" name="kk"></td>
-                    </tr>
-                    <tr>
-                        <td><label for="alamat">ALAMAT :</label></td>
-                        <td>
-
-                            <textarea name="alamat" id="alamat">--isi alamat--</textarea>
+                            </select><br>
+                   <label for="kk">kota/kabupaten :</label>
+                         <input type="text " id="kk" name="kk"><br>
+                   <label for="alamat">ALAMAT :</label><br>
+                        <textarea name="alamat" id="alamat">--isi alamat--</textarea>
                             </textarea>
-                        </td>
-                    </tr>
-                </table>
+                        <br>
             </fieldset>
             <fieldset class="T3">
                 <legend><b>AKUN</b></legend>
-                <table class="T3">
-                    <tr>
-                        <td>
                             <lebel for="email">EMAIL :</lebel>
-                        </td>
-                        <td><input type="email" id="email" name="email"></td>
-                    </tr>
-                    <tr>
-                        <td> <label for="pass">PASSWORD :</label> </td>
-                        <td> <input type="password" id="pass" name="password"></td>
-                    </tr>
-                    <tr>
-                        <td> <label for="konfpass">KONFIRMASI PASSWORD :</label> </td>
-                        <td> <input type="password" id="konfpass" name="konfirmasipassword"></td>
-                    </tr>
-                </table>
+                        <input type="email" id="email" name="email"><br>
+                <label for="pass">PASSWORD :</label>
+                        <input type="password" id="pass" name="password"><br>
+                   <label for="konfpass">KONFIRMASI PASSWORD :</label> 
+                        <td> <input type="password" id="konfpass" name="konfirmasipassword"><br>
+                   
 
             </fieldset>
         </fieldset>
