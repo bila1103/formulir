@@ -84,7 +84,7 @@ a:active {
         <fieldset class="L1">
             <fieldset class="T1">
                 <legend><b>DATA DIRI</b></legend>
-                <table>
+             
                     <tr>
                         <td> <label for="NAMA">NAMA :</label> </td>
                         <td> <input type="text " id="nama" name="nama"></td>
@@ -171,10 +171,10 @@ a:active {
                         <tr>
                         <td><h4>*foto bebas ukuran 4x6</h4></td>
                     </tr>
-                </table>
+             
             </fieldset>
             <fieldset class="T2">
-                <table>
+                
                     <legend><b>DATA SEKOLAH</b></legend>
                     <tr>
                         <td> <label for="sekolah">nama sekolah :</label> </td>
@@ -243,11 +243,11 @@ a:active {
                             </textarea>
                         </td>
                     </tr>
-                </table>
+                
             </fieldset>
             <fieldset class="T3">
                 <legend><b>AKUN</b></legend>
-                <table>
+                
                     <tr>
                         <td>
                             <lebel for="email">EMAIL :</lebel>
@@ -263,7 +263,7 @@ a:active {
                         <td> <input type="password" id="konfpass" name="konfirmasipassword"></td>
                     </tr>
 
-                </table>
+                
             </fieldset>
         </fieldset>
         </fieldset>
