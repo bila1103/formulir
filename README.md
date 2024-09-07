@@ -2,77 +2,81 @@
 
 <head>
     <title>FORM JOIN</title>
-<style>
-    b {
-    font-size: 30px;
-    border: 2px;
-    color: rgb(2, 2, 24);
-}
+    <style>
+        b {
+            font-size: 30px;
+            border: 2px;
+            color: rgb(2, 2, 24);
+        }
 
-h1 {
-    color: rgb(222, 20, 20);
-    font-size: 50px;
-    border: 2px;
-    text-align: center;
-    font-family: "licida handwriting", cursive;
-}
+        h1 {
+            color: rgb(222, 20, 20);
+            font-size: 50px;
+            border: 2px;
+            text-align: center;
+            font-family: "licida handwriting", cursive;
+        }
 
-h2 {
-    color: rgb(178, 26, 127);
-    font-size: 30px;
-    border: 2px;
-    text-align: center;
-    font-family: "papyrus", fantasy;
-}
-h3 {
-       font-size: 30px;
-       border: 2px;
-       font-family:'Courier New', Courier, monospace
-}
-.L1 {
-    background-color: rgb(180, 229, 245);
-}
+        h2 {
+            color: rgb(178, 26, 127);
+            font-size: 30px;
+            border: 2px;
+            text-align: center;
+            font-family: "papyrus", fantasy;
+        }
 
-.L2 {
-    background-color: rgb(236, 209, 232);
-}
+        h3 {
+            font-size: 30px;
+            border: 2px;
+            font-family: 'Courier New', Courier, monospace
+        }
 
-.T1 {
-    background-color: rgb(234, 200, 206);
+        .L1 {
+            background-color: rgb(180, 229, 245);
+        }
 
-}
+        .L2 {
+            background-color: rgb(236, 209, 232);
+        }
 
-.T2 {
-    background-color: rgb(234, 237, 196);
-}
+        .T1 {
+            background-color: rgb(234, 200, 206);
 
-.T3 {
-    background-color: rgb(178, 222, 202);
-}
-ul.a {
-    list-style-type: square;
-    background: #ff9999;
-    padding: 20px;
-}
-ul li {background: #ffe5e5;
-color: darkred;
-padding: 5px;
-margin-left: 35px;
-}
+        }
 
-a:visited {
-    color: green;
-}
+        .T2 {
+            background-color: rgb(234, 237, 196);
+        }
 
-a:hover {
-    color: hotpink;
-}
+        .T3 {
+            background-color: rgb(178, 222, 202);
+        }
 
-a:active {
-    color: blue;
-} 
+        ul.a {
+            list-style-type: square;
+            background: #ff9999;
+            padding: 20px;
+        }
 
-</style>
+        ul li {
+            background: #ffe5e5;
+            color: darkred;
+            padding: 5px;
+            margin-left: 35px;
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        a:hover {
+            color: hotpink;
+        }
+
+        a:active {
+            color: blue;
+        }
+    </style>
 </head>
 
 <body>
@@ -84,7 +88,8 @@ a:active {
         <fieldset class="L1">
             <fieldset class="T1">
                 <legend><b>DATA DIRI</b></legend>
-             
+
+                <table class="T1">
                     <tr>
                         <td> <label for="NAMA">NAMA :</label> </td>
                         <td> <input type="text " id="nama" name="nama"></td>
@@ -167,14 +172,16 @@ a:active {
                     <tr>
                         <td><label for="photo">PAS FOTO* :</label></td>
                         <td><input type="file" id="photo" name="pp"></td>
-                        </tr>
-                        <tr>
-                        <td><h4>*foto bebas ukuran 4x6</h4></td>
                     </tr>
-             
+                    <tr>
+                        <td>
+                            <h4>*foto bebas ukuran 4x6</h4>
+                        </td>
+                    </tr>
+                </table>
             </fieldset>
             <fieldset class="T2">
-                
+                <table class="T2">
                     <legend><b>DATA SEKOLAH</b></legend>
                     <tr>
                         <td> <label for="sekolah">nama sekolah :</label> </td>
@@ -243,11 +250,11 @@ a:active {
                             </textarea>
                         </td>
                     </tr>
-                
+                </table>
             </fieldset>
             <fieldset class="T3">
                 <legend><b>AKUN</b></legend>
-                
+                <table class="T3">
                     <tr>
                         <td>
                             <lebel for="email">EMAIL :</lebel>
@@ -262,12 +269,12 @@ a:active {
                         <td> <label for="konfpass">KONFIRMASI PASSWORD :</label> </td>
                         <td> <input type="password" id="konfpass" name="konfirmasipassword"></td>
                     </tr>
+                </table>
 
-                
             </fieldset>
         </fieldset>
         </fieldset>
-        
+
         <ul class="a">
             <h3>contac us:</h3>
             <li><a href="https://wa.me/qr/FXTPQPGMRLEKP1">WHATSUP </a></li>
