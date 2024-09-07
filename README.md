@@ -204,7 +204,3 @@
         <button type="submit">daftar</button>
         <button type="reset">reset</button>
 
-
-</body>
-
-</html>
