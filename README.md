@@ -90,7 +90,7 @@
                 <legend><b>DATA DIRI</b></legend>
                 <label for="NAMA">NAMA :</label>
                 <input type="text " id="nama" name="nama"><br>
-                <label for="ttl">TANGGAL LAHIIR :</label></td>
+                <label for="ttl">TANGGAL LAHIIR :</label>
                 <input type="date" id="ttl" name="ttl"><br>
                 <label for="js">JENIS KELAMIN :</label><br>
                 <input type="radio" id="jk" name="lk">laki-laki<br>
@@ -98,8 +98,8 @@
                 <label for="skl">TINGKAT PENDIDIKAN :</label><br>
                 <input type="radio" id="SD" name="SD">SD (SEKOLAH DASAR)<br>
                 <input type="radio" id="SMP" name="SMP">SMP (SEKOLAH MENENGAH PERTAMA)<br>
-                <input type="radio" id="SMA" name="SMA">SMA (SEKOLAH MENENGAH ATAS)</br>
-                <input type="radio" id="SMK" name="SMK">SMP (SEKOLAH MENENGAH KEJURUAN)</br>
+                <input type="radio" id="SMA" name="SMA">SMA (SEKOLAH MENENGAH ATAS)<br>
+                <input type="radio" id="SMK" name="SMK">SMP (SEKOLAH MENENGAH KEJURUAN)<br>
                 <label for="agama">AGAMA :</label><br>
                 <select name="agama" id="agama">
                     <option value="#">--pilih salah satu--</option>
@@ -117,18 +117,18 @@
                 <input type="checkbox">memasak<br>
                 <input type="checkbox">memancing<br>
                 <input type="checkbox">bernyayi<br>
-                <label for="hp">NO.HP :</label></td>
+                <label for="hp">NO.HP :</label>
                 <td><input type="tel" id="hp" name="phone" placeholder="1122-3344-5566"><br>
                     <label for="alamat">ALAMAT :</label><br>
                     <textarea name="alamat" id="alamat">--isi alamat--</textarea>
-                    </textarea>
+                   
                     <br>
                     <label for="photo">PAS FOTO* :</label><br>
                     <input type="file" id="photo" name="pp"><br>
 
                     <h4>*foto bebas ukuran 4x6</h4>
 
-            </fieldset>
+            
             <fieldset class="T2">
                 
                     <legend><b>DATA SEKOLAH</b></legend>
@@ -182,7 +182,7 @@
                          <input type="text " id="kk" name="kk"><br>
                    <label for="alamat">ALAMAT :</label><br>
                         <textarea name="alamat" id="alamat">--isi alamat--</textarea>
-                            </textarea>
+                
                         <br>
             </fieldset>
             <fieldset class="T3">
@@ -195,9 +195,6 @@
                         <td> <input type="password" id="konfpass" name="konfirmasipassword"><br>
                    
 
-            </fieldset>
-        </fieldset>
-        </fieldset>
 
         <ul class="a">
             <h3>contac us:</h3>
