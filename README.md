@@ -90,7 +90,7 @@
                 <legend><b>DATA DIRI</b></legend>
                 <label for="NAMA">NAMA :</label>
                 <input type="text " id="nama" name="nama"><br>
-                <label for="ttl">TANGGAL LAHIIR :</label></td>
+                <label for="ttl">TANGGAL LAHIIR :</label>
                 <input type="date" id="ttl" name="ttl"><br>
                 <label for="js">JENIS KELAMIN :</label><br>
                 <input type="radio" id="jk" name="lk">laki-laki<br>
